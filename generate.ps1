@@ -6,3 +6,8 @@ if (!(Test-Path -Path $OUTPUT_DIRECTORY -PathType Container)) {
 }
 
 ..\dofus-protocol-builder\dofus-protocol-builder.exe $DOFUS_SCRIPTS_SOURCE_FOLDER $OUTPUT_DIRECTORY
+
+$DOFUS_DATA_FOLDER="c:\Users\batbo\AppData\Local\Ankama\Dofus\data\"
+$OUTPUT_DIRECTORY = "./pkg/types"
+
+go run .\cmd\types\types.go $DOFUS_DATA_FOLDER $OUTPUT_DIRECTORY

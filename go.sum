@@ -1,0 +1,4 @@
+github.com/brequet/dofus-data-file-parser v0.1.2 h1:VqHEarh2cJLpdB7cX74w8ZOKZ1jSkfx7a+Mb/Qcbadg=
+github.com/brequet/dofus-data-file-parser v0.1.2/go.mod h1:7v8UQczqWb9WKdkrLO2SIIxdw3Qmi1SP6GAE4TukV6c=
+golang.org/x/text v0.16.0 h1:a94ExnEXNtEwYLGJSIUxnWoxoRz/ZcCsV63ROupILh4=
+golang.org/x/text v0.16.0/go.mod h1:GhwF1Be+LQoKShO3cGOHzqOgRrGaYc9AvblQOmPVHnI=
